@@ -5,15 +5,10 @@ close all
 clc
 
 % Definim els paths que utilitzarem
-path_train = '/home/alumne2/julia/slicesTRAIN/train_slices';
-path_train_labels = '/home/alumne2/julia/slicesTRAIN/train_slices_seg';
-path_val = '/home/alumne2/julia/slicesTRAIN/val_slices';
-path_val_labels = '/home/alumne2/julia/slicesTRAIN/val_slices_seg';
-
-% path_train = '/home/alumne2/julia/slices_sense_fons/train_slices';
-% path_train_labels = '/home/alumne2/julia/slices_sense_fons/train_slices_seg';
-% path_val = '/home/alumne2/julia/slices_sense_fons/val_slices';
-% path_val_labels = '/home/alumne2/julia/slices_sense_fons/val_slices_seg';
+path_train = '/home/alumne2/julia/slicesTRAIN/train_slices'; %Carpeta llesques imatges train
+path_train_labels = '/home/alumne2/julia/slicesTRAIN/train_slices_seg'; %Carpeta llesques GT train
+path_val = '/home/alumne2/julia/slicesTRAIN/val_slices'; %Carpeta llesques imatges validació
+path_val_labels = '/home/alumne2/julia/slicesTRAIN/val_slices_seg'; %Carpeta llesques GT validació
 
 %Creem un objecte per emmagatzemar les imatges
 imds = imageDatastore(path_train);
