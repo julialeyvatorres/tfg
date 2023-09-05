@@ -2,15 +2,15 @@
 Treball Final de Grau - Grau en Enginyeria Biomèdica (UdG)
 Autora: Júlia Leyva
 
-# PROPÒSIT
+## PROPÒSIT
 L'objectiu d'aquest projecte és el processament d'imatges de ressonància magnètica (RM) cerebral i la segmentació automàtica de les tres matèries principals del cervell: matèria blanca (WM), matèria gris (GM) i líquid cefalorraquidi (CSF), permetent l’obtenció de volumetries objectives. Aquestes mesures són molt útils tant per a la quantificació de l’atròfia com pel seguiment de la pèrdua de volum cerebral i la seva correlació amb la malaltia. D'aquesta manera, ajudar als clínics amb la detecció precoç i l'evolució de les malalties neurodegeneratives.
 
 S'ha utilitzat una tècnica tradicional, Statistical Parametric Mapping (SPM), i una tècnica innovadora basada en l'entrenament de xarxes neuronals (Deep Learning) per fer una posterior anàlisi i avaluació per comparar-les entre elles.
 
-# REQUERIMENTS D'INSTAL·LACIÓ
+## REQUERIMENTS D'INSTAL·LACIÓ
 Els requeriments per poder executar el projecte són MATLAB R2023a amb la toolbox Deep Learning i SPM12.
 
-# MANUAL D'USUARI
+## MANUAL D'USUARI
 A continuació, detallem els passos necessaris per a l'execució del projecte. Caldrà editar els directoris pels quals es trobin les nostres imatges a analitzar i processar.
 
 1. Descarreguem el conjunt de dades de la font desitjada. Concretament, en el projecte s'ha usat la base de dades d'un dels reptes MICCAI de l'any 2012: Grand Challenge and Workshop on Multi-Atlas Labeling.
